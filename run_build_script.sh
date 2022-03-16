@@ -1,0 +1,2 @@
+echo 'COMPILANDO'
+mvn compile
