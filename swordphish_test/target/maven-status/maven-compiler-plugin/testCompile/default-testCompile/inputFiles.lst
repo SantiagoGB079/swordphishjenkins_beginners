@@ -1,2 +1,2 @@
-/home/santiago/Documentos/1-CONFIDENCIAL/SPRINT05/Test/swordphish_test/src/test/java/co/com/appgate/swordphish/runners/ValidateUrl.java
-/home/santiago/Documentos/1-CONFIDENCIAL/SPRINT05/Test/swordphish_test/src/test/java/co/com/appgate/swordphish/stepdefinitions/ValidateUrlStepDefinitions.java
+/home/santiago/Documentos/3-PERSONAL/swordphishjenkins_beginners/swordphish_test/src/test/java/co/com/appgate/swordphish/stepdefinitions/ValidateUrlStepDefinitions.java
+/home/santiago/Documentos/3-PERSONAL/swordphishjenkins_beginners/swordphish_test/src/test/java/co/com/appgate/swordphish/runners/ValidateUrl.java
