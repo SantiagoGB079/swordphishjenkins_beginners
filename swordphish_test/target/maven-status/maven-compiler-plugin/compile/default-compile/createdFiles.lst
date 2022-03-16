@@ -1,0 +1,4 @@
+co/com/appgate/swordphish/utils/Constants.class
+co/com/appgate/swordphish/utils/Producer.class
+co/com/appgate/swordphish/utils/Consumer.class
+co/com/appgate/swordphish/models/RequestMessage.class
