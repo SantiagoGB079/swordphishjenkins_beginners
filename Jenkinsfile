@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build Demo Application by Santiago Gòmez'
-        sh 'sh run_build_script.sh'
+        sh 'sh ./run_build_script.sh'
       }
     }
 
@@ -12,7 +12,7 @@ pipeline {
       parallel {
         stage('Linux Tests') {
           steps {
-            sh 'sh run_linux_tests.sh'
+            sh 'sh ./run_linux_tests.sh'
           }
         }
 
