@@ -50,8 +50,8 @@ Feature: As a use I want to validate URL with swordphish service
   @pagelegal
   Scenario: Phishing pages
     When the user send to url
-      | http://smbcracojp.com                   | false |
-      | http://l3ancofalabellacl.com/falalogin/ | false |
+      | http://smbcracojp.com                   | true |
+      | http://l3ancofalabellacl.com/falalogin/ | true |
     And the information
       | correlationId | traceabilityId | replyTo                                  |
       | 032           | prueba032      | dtp.weblogs-service.1.reply.analyze-urls |
