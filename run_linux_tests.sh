@@ -1,2 +1,2 @@
 echo 'CORRIENDO PRUEBAS'
-mvn clean verify
+#mvn clean verify
