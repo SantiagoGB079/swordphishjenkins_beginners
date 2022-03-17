@@ -27,6 +27,10 @@ pipeline {
 
     stage('Deploy staging') {
       steps {
+        echo 'downloading containers'
+        sh 'docker-compose -f ./swordphish_test/docker-compose.yml down'
+        sh 'docker ps'
+        echo '****CONTAINERS UP****'
         echo 'Deploy to staging environment'
         input 'Ok to deploy to production?'
       }
