@@ -8,11 +8,10 @@ pipeline {
       }
     }
 
-    stage('Linux Tests') {
+    stage('Tests Integration') {
       parallel {
         stage('Linux Tests') {
           steps {
-
             sh 'sh ./run_linux_tests.sh'
           }
         }
