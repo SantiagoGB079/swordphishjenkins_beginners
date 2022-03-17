@@ -42,7 +42,7 @@ pipeline {
   }
   post {
     always {
-      archiveArtifacts(artifacts: 'target/swordphishjenkins_beginners.jar', fingerprint: true)
+      archiveArtifacts(artifacts: '**/target/s*.jar', fingerprint: true)
     }
 
     failure {
