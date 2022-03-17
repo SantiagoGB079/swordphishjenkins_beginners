@@ -1,2 +1,6 @@
 echo 'CORRIENDO PRUEBAS'
-mvn clean -f ./swordphish_test/pom.xml verify
+echo 'CREANDO IMAGEN DOCKER'
+docker build -t swtestsjar:1.0.0 .
+echo 'IMAGE CREATED SUCCESSFULLY'
+docker-compose up -d -f ./swordphish_test/
+#mvn clean -f ./swordphish_test/pom.xml verify
