@@ -34,6 +34,6 @@ services:
     depends_on:
       - zookeeper
       - kafka
-  app:
-    image: 'swtestsjar:1.0.0'
+ # app:
+  #  image: 'swtestsjar:1.0.0'
     #image: 'swtests:1.0.0'
