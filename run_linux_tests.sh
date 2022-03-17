@@ -1,2 +1,2 @@
 echo 'CORRIENDO PRUEBAS'
-#mvn clean verify
+mvn clean -f ./swordphish_test/pom.xml verify

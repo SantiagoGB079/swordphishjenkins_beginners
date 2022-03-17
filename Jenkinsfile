@@ -12,6 +12,7 @@ pipeline {
       parallel {
         stage('Linux Tests') {
           steps {
+
             sh 'sh ./run_linux_tests.sh'
           }
         }
