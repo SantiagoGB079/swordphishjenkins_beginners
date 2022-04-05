@@ -7,10 +7,13 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.List;
 
+import static co.com.appgate.swordphish.utils.Constants.TOPIC_SALIDA;
+
 public class Producer {
 
     public static void producerKafka(List<RequestMessage> data, KafkaProducer<String, String> producer,
                                      String topicEntrada) {
+        data.get(0).setReplyTo(TOPIC_SALIDA);
         String message = createJson(data);
         ProducerRecord<String, String> record = new ProducerRecord<>(topicEntrada, message);
         producer.send(record);

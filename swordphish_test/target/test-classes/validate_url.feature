@@ -14,7 +14,7 @@ Feature: As a use I want to validate URL with swordphish service
     Examples:
       | correlationId | traceabilityId | urls                      | replyTo                                  | phishing |
       | 027           | PRUEBA027      | https://www.google.com    | dtp.weblogs-service.1.reply.analyze-urls | false    |
-      | 028           | PRUEBA028      | https://www.apple.com     | dtp.weblogs-service.1.reply.analyze-urls | false    |
+      | 028           | PRUEBA028      | https://www.apple.com     | dtp.weblogs-service.1.reply.analyze-urls | true    |
       | 029           | PRUEBA029      | https://www.bonbonite.com | dtp.weblogs-service.1.reply.analyze-urls | false    |
       | 030           | PRUEBA030      | https://www.falabella.com | dtp.weblogs-service.1.reply.analyze-urls | false    |
 

@@ -8,9 +8,18 @@ public class RequestMessage {
     private String traceabilityId;
     private String replyTo;
     private List<String> urls;
+    private extraData extraData;
 
     public void setUrls(List<String> urls) {
         this.urls = urls;
+    }
+
+    public extraData getExtraData() {
+        return extraData;
+    }
+
+    public void setExtraData(extraData eData){
+        this.extraData=eData;
     }
 
     public String getCorrelationId() {
@@ -19,6 +28,10 @@ public class RequestMessage {
 
     public String getTraceabilityId() {
         return traceabilityId;
+    }
+
+    public void setReplyTo(String replyTo){
+        this.replyTo = replyTo;
     }
 
     public String getReplyTo() {
